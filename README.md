@@ -6,7 +6,7 @@ VIM text editor.
 
 # Showcase
 
-A detailed demonstration and usage examples will be provided soon.
+![asciicast](showcase.gif)
 
 # Installation
 
@@ -21,4 +21,4 @@ Once this is done, you are ready to get started.
 The tools used include:
 
 * [simonw/llm](https://github.com/simonw/llm)
-* vipe from the moreutils Linux package"
+* vipe from the moreutils Linux package
