@@ -28,15 +28,8 @@ To read about how I use llm and vi-llm, you can check out my
 
 # Installation
 
-First, you need to install vipe and [simonw/llm](https://github.com/simonw/llm).
+First, you need to install [simonw/llm](https://github.com/simonw/llm).
 
 Then, put the `vi-llm` file in an area that's defined in your PATH environment variable.
 
 Once this is done, you are ready to get started.
-
-# Tools used
-
-The tools used include:
-
-* [simonw/llm](https://github.com/simonw/llm)
-* vipe from the moreutils Linux package
