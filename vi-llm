@@ -2,7 +2,6 @@
 
 readonly NO_CHAT_FLAG_ERROR_CODE=1
 readonly NONZERO_VIPE_ERROR_CODE=2
-readonly PROCESSING_ERROR_CODE=3
 
 function exit_with_error {
     >&2 echo "$1"
@@ -39,11 +38,6 @@ while true; do
         | grep "<"\
         | sed 's/< //'
     )
-
-    if [[ $? -ne 0 ]]; then
-        >&2 echo "Processing error"
-        exit $PROCESSING_ERROR_CODE
-    fi
 
     if [[ -z "$prompt" ]]; then
         exit 0
